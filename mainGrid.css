@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    cursor: url(../images/cursor.cur), auto;
+}
+
+body{
+    font-family: tahoma, Courier, sans-serif;
+    font-size: 16px;
+
+    display: grid;   
+    grid-template-areas: 
+        'header header header'
+        'navigation content sidebar'
+        'footer footer footer';
+    grid-template-rows: 100px 1700px 100px;
+    grid-template-columns: 1fr 6fr 2fr;
+}
+
+header, footer, aside, nav{
+    color: white;
+    padding: 20px;
+}
+
+header, footer{background-color: #4D2D18;}
+
+header{grid-area: header;}
+
+footer{grid-area: footer;}
+
+aside{grid-area: sidebar;}
+
+main{grid-area: content;}
+
+nav{grid-area: navigation;}
+
+
