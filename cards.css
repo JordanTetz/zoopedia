@@ -1,0 +1,167 @@
+.card{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #ab9a68;
+    color: white;
+    border-radius: 7px;
+    position: initial;
+    top: 20px;
+    bottom: 20px;
+}
+
+.card-title{
+    word-break: break-word;
+    display: inline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.large-title{
+    font-size: 35px;
+}
+
+.small-title{
+    font-size: 15px;
+}
+
+.card-image{
+    height:150px;
+    width: 270px;
+    align-self: center;
+    object-fit: cover;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+
+.top-position{
+    object-position: top center;
+}
+
+.card-text{
+    word-break: break-word;
+    display:block;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.card-line{
+    border: 2px solid;
+    margin-top: 12px;
+}
+
+.breadcrumb-card{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    color: white;
+}
+
+.breadcrumb{
+    background-color: #ab9a68;
+    color: white;
+    padding: 20px 5px;
+    border-radius: 5px;
+    width: 142px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    word-break: break-word;
+}
+
+.breadcrumb-small{
+    font-size: 16px !important;
+}
+
+.arrow{
+    font-size: 40px;
+    -webkit-text-stroke: 5px #4D2D18; 
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-image{
+    height:150px;
+    width: 150px;
+    align-self: center;
+    object-fit: cover;
+    size: cover;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+
+.species{
+    background-color: white;
+    color: white;
+    border-radius: 7px;
+    position: initial;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;   
+    grid-template-areas: 
+        'title title title'
+        'image content content'
+        'image content content';
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100fr 100fr 100fr;
+    gap: 1px;
+}
+
+.species-image-bg{
+    grid-area: image;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ab9a68;
+}
+
+.species-image{
+    height:150px;
+    width: 270px;
+    align-self: center;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.species-title{
+    display: flex;
+    flex-direction: row;
+    grid-area: title;
+    background-color: #ab9a68;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    word-break: break-word;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    vertical-align: middle;
+    font-size: 35px;
+}
+
+.species-desc{
+    grid-area: content;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #ab9a68;
+}
+
+.species-desc-item{
+    margin: 4px;
+    margin-left: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+

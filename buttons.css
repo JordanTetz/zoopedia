@@ -1,0 +1,175 @@
+.content{
+    font-size: 16px;
+    padding: 20px;
+
+    display: flex;   
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+.button{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    font-family: 'Comic Sans', 'Franklin Gothic Medium', sans-serif;
+    text-shadow: 2px 2px black;
+    width: 450px;
+    height: 266px;
+    filter: brightness(1);
+    border-radius: 10%;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    line-height: 250px;
+    margin: 10px;
+}
+
+.button:hover{
+    filter: brightness(0.6); 
+}
+
+.liberiictis{background: url(gray.png) no-repeat top left;background-size: cover;}
+.felidae, .panthera{background: url(SnowLeopard.jpg) no-repeat top left;
+    background-size: cover;}
+.primates{background: url(BonnetMacaque.jpg) no-repeat top left;background-size: cover;background-position: top middle;}
+.hominidae, .pongo{background: url(BorneanOrangutan.jpg) no-repeat top left;background-size: cover;
+    background-position: center;}
+.pan{background: url(Chimpanzee.jpg) no-repeat top left;background-size: cover;}
+.homo{background: url(Human.jpg) no-repeat top left;background-size: cover;}
+.gorilla{background: url(WesternGorilla.jpg) no-repeat top left;background-size: cover;}
+.chordata, .mammalia, .carnivora, .canidae, .canis{background: url(Coyote.jpg) no-repeat top left;background-size: cover;}
+.ursidae, .ursus{background: url(BrownBear.jpg) no-repeat top left;background-size: cover;}
+.procyonidae, .procyon{background: url(Raccoon.jpg) no-repeat top left;background-size: cover;}
+.ailuridae{background: url(RedPanda.jpg) no-repeat top left;background-size: cover;}
+.mustelidae, .mustela{background: url(BlackFootedFerret.jpg) no-repeat top left;background-size: cover;}
+.viverridae, .civettictis{background: url(AfricanCivet.jpg) no-repeat top left;background-size: cover;}
+.herpestidae, .herpestes{background: url(EgyptianMongoose.jpg) no-repeat top left;background-size: cover;}
+.hyanidae, .hyaena{background: url(StripedHyena.jpg) no-repeat top left;background-size: cover;}
+.otariidae, .neophoca{background: url(AustralianSeaLion.jpg) no-repeat top left;background-size: cover;}
+.phocidae, .phoca{background: url(HarborSeal.jpg) no-repeat top left;background-size: cover;}
+.eupleridae, .galidia{background: url(RingTailedVontsira.jpg) no-repeat top left;background-size: cover;}
+.mephitidae, .mephitis{background: url(HoodedSkunk.jpg) no-repeat top left;background-size: cover;}
+.odobenidae{background: url(Walrus.jpg) no-repeat top left;background-size: cover;}
+.nandiniidae{background: url(AfricanPalmCivet.jpg) no-repeat top left;background-size: cover;}
+.prionodontidae{background: url(SpottedLinsang.jpg) no-repeat top left;background-size: cover;}
+.perissodactyla, .rhinocerotidae, .ceratotherium{background: url(WhiteRhino.jpg) no-repeat top left;background-size: cover;}
+.equidae{background: url(Horse.jpg) no-repeat top left;background-size: cover;}
+.tapiridae{background: url(SouthAmericanTapir.jpg) no-repeat top left;background-size: cover;}
+.neofelis{background: url(CloudedLeopard.jpg) no-repeat top left;background-size: cover;}
+.caracal{background: url(Caracal.jpg) no-repeat top left;background-size: cover;background-position: bottom right;}
+.leptailurus{background: url(Serval.jpg) no-repeat top left;background-size: cover;}
+.leopardus{background: url(Ocelot.jpg) no-repeat top left;background-size: cover;}
+.catopuma{background: url(BayCat.jpg) no-repeat top left;background-size: cover;}
+.pardofelis{background: url(MarbledCat.jpg) no-repeat top left;background-size: cover;}
+.lynx{background: url(CanadaLynx.jpg) no-repeat top left;background-size: cover;}
+.puma{background: url(Cougar.jpg) no-repeat top left;background-size: cover;}
+.herpailurus{background: url(Jaguarundi.jpg) no-repeat top left;background-size: cover;}
+.acinonyx{background: url(Cheetah.jpg) no-repeat top left;background-size: cover;}
+.prionailurus{background: url(FishingCat.jpg) no-repeat top left;background-size: cover;}
+.otocolobus{background: url(PallassCat.jpg) no-repeat top left;background-size: cover;background-position: center;}
+.felis{background: url(DomesticCat.jpg) no-repeat top left;background-size: cover;}
+.cuon{background: url(Dhole.jpg) no-repeat top left;background-size: cover;}
+.lycaon{background: url(AfricanWildDog.jpg) no-repeat top left;background-size: cover;}
+.lupulella{background: url(SideStripedJackal.jpg) no-repeat top left;background-size: cover;}
+.speothos{background: url(BushDog.jpg) no-repeat top left;background-size: cover;}
+.lycalopex{background: url(AndeanFox.jpg) no-repeat top left;background-size: cover;}
+.cerdocyon{background: url(CrabEatingFox.jpg) no-repeat top left;background-size: cover;}
+.chrysocyon{background: url(ManedWolf.jpg) no-repeat top left;background-size: cover;}
+.atelocynus{background: url(ShortEaredDog.jpg) no-repeat top left;background-size: cover;}
+.nyctereutes{background: url(CommonRaccoonDog.jpg) no-repeat top left;background-size: cover;}
+.otocyon{background: url(batEaredFox.jpg) no-repeat top left;background-size: cover;}
+.vulpes{background: url(RedFox.jpg) no-repeat top left;background-size: cover;}
+.urocyon{background: url(GreyFox.jpg) no-repeat top left;background-size: cover;}
+.ailuropoda{background: url(Panda.jpg) no-repeat top left;background-size: cover;}
+.melursus{background: url(SlothBear.jpg) no-repeat top left;background-size: cover;}
+.helarctos{background: url(SunBear.jpg) no-repeat top left;background-size: cover;}
+.tremarctos{background: url(SpectacledBear.jpg) no-repeat top left;background-size: cover;background-position: center;}
+.potos{background: url(Kinkajou.jpg) no-repeat top left;background-size: cover;}
+.nasuella{background: url(WesternMountainCoati.jpg) no-repeat top left;background-size: cover;}
+.nasua{background: url(SouthAmericanCoati.jpg) no-repeat top left;background-size: cover;}
+.bassaricyon{background: url(NorthernOlingo.jpg) no-repeat top left;background-size: cover;}
+.bassariscus{background: url(RingTailedCat.jpg) no-repeat top left;background-size: cover;}
+.eira{background: url(Tayra.jpg) no-repeat top left;background-size: cover;}
+.gulo{background: url(Wolverine.jpg) no-repeat top left;background-size: cover;}
+.martes{background: url(EuropeanPineMarten.jpg) no-repeat top left;background-size: cover;}
+.pekania{background: url(Fisher.jpg) no-repeat top left;background-size: cover;}
+.melogale{background: url(ChineseFerretBadger.jpg) no-repeat top left;background-size: cover;}
+.galictis{background: url(GreaterGrison.jpg) no-repeat top left;background-size: cover;}
+.ictonyx{background: url(StripedPolecat.jpg) no-repeat top left;background-size: cover;}
+.lyncodon{background: url(PatagonianWeasel.jpg) no-repeat top left;background-size: cover;}
+.poecilogale{background: url(AfricanStripedWeasel.jpg) no-repeat top left;background-size: cover;}
+.vormela{background: url(MarbledPoleCat.jpg) no-repeat top left;background-size: cover;}
+.aonyx{background: url(AfricanClawlessOtter.jpg) no-repeat top left;background-size: cover;}
+.enhydra{background: url(SeaOtter.jpg) no-repeat top left;background-size: cover;}
+.hydrictis{background: url(SpottedNeckedOtter.jpg) no-repeat top left;background-size: cover;}
+.lontra{background: url(NorthAmericanRiverOtter.jpg) no-repeat top left;background-size: cover;}
+.lutra{background: url(EurasianOtter.jpg) no-repeat top left;background-size: cover;}
+.lutrogale{background: url(SmoothCoatedOtter.jpg) no-repeat top left;background-size: cover;}
+.pteronura{background: url(GiantOtter.jpg) no-repeat top left;background-size: cover;}
+.arctonyx{background: url(GreaterHogBadger.jpg) no-repeat top left;background-size: cover;}
+.meles{background: url(EuropeanBadger.jpg) no-repeat top left;background-size: cover;}
+.mellivora{background: url(HoneyBadger.jpg) no-repeat top left;background-size: cover;}
+.neogale{background: url(AmericanMink.jpg) no-repeat top left;background-size: cover;}
+.taxidea{background: url(AmericanBadger.jpg) no-repeat top left;background-size: cover;}
+.genetta{background: url(CapeGenet.jpg) no-repeat top left;background-size: cover;}
+.poiana{background: url(CentralAfricanOyan.jpg) no-repeat top left;background-size: cover;}
+.chrotogale{background: url(OwstonsPalmCivet.jpg) no-repeat top left;background-size: cover;background-position:center;}
+.cynogale{background: url(OtterCivet.jpg) no-repeat top left;background-size: cover;}
+.diplogale{background: url(HosesPalmCivet.jpg) no-repeat top left;background-size: cover;}
+.hemigalus{background: url(BandedPalmCivet.jpg) no-repeat top left;background-size: cover;}
+.arctictis{background: url(Binturong.jpg) no-repeat top left;background-size: cover;}
+.arctogalidia{background: url(SmallToothedPalmCivet.jpg) no-repeat top left;background-size: cover;background-position:center;}
+.macrogalidia{background: url(SulawesiPalmCivet.jpg) no-repeat top left;background-size: cover;}
+.paguma{background: url(MaskedPalmCivet.jpg) no-repeat top left;background-size: cover;}
+.paradoxurus{background: url(AsianPalmCivet.jpg) no-repeat top left;background-size: cover;}
+.viverra{background: url(MalayanCivet.jpg) no-repeat top left;background-size: cover;}
+.viverricula{background: url(SmallIndianCivet.jpg) no-repeat top left;background-size: cover;}
+.atilax{background: url(MarshMongoose.jpg) no-repeat top left;background-size: cover; background-position: right;}
+.bdeogale{background: url(BushyTailedMongoose.jpg) no-repeat top left;background-size: cover;}
+.cynictis{background: url(YellowMongoose.jpg) no-repeat top left;background-size: cover;}
+.ichneumia{background: url(WhiteTailedMongoose.jpg) no-repeat top left;background-size: cover;}
+.paracynictis{background: url(SeloussMongoose.jpg) no-repeat top left;background-size: cover;}
+.rhynchogale{background: url(MellersMongoose.jpg) no-repeat top left;background-size: cover;}
+.urva{background: url(CollaredMongoose.jpg) no-repeat top left;background-size: cover; background-position: right;}
+.xenogale{background: url(LongNosedMongoose.png) no-repeat top left;background-size: cover;}
+.crossarchus{background: url(CommonKusimanse.jpg) no-repeat top left;background-size: cover;}
+.dologale{background: url(PousarguessMongoose.jpg) no-repeat top left;background-size: cover;}
+.helogale{background: url(CommonDwarfMongoose.jpg) no-repeat top left;background-size: cover;}
+.mungos{background: url(BandedMongoose.jpg) no-repeat top left;background-size: cover;}
+.suricata{background: url(Meerkat.jpg) no-repeat top left;background-size: cover;}
+.proteles{background: url(Aardwolf.jpg) no-repeat top left;background-size: cover;}
+.crocuta{background: url(SpottedHyena.jpg) no-repeat top left;background-size: cover;}
+.parahyaena{background: url(BrownHyena.jpg) no-repeat top left;background-size: cover;}
+.spilogale{background: url(WesternSpottedSkunk.jpg) no-repeat top left;background-size: cover;}
+.conepatus{background: url(HumboldtsHogNosedSkunk.jpg) no-repeat top left;background-size: cover;}
+.mydaus{background: url(PalawanStinkBadger.jpg) no-repeat top left;background-size: cover;}
+.cryptoprocta{background: url(Fossa.jpg) no-repeat top left;background-size: cover;}
+.eupleres{background: url(EasternFalanouc.jpg) no-repeat top left;background-size: cover;}
+.fossa{background: url(MalagasyCivet.jpg) no-repeat top left;background-size: cover;}
+.galidictis{background: url(BroadStripedMalagasyMongoose.jpg) no-repeat top left;background-size: cover;}
+.mungotictis{background: url(NarrowStripedMongoose.jpg) no-repeat top left;background-size: cover;}
+.salanoia{background: url(BrownTailedMongoose.png) no-repeat top left;background-size: cover;}
+.pusa{background: url(RingedSeal.jpg) no-repeat top left;background-size: cover;}
+.pagophilus{background: url(HarpSeal.jpg) no-repeat top left;background-size: cover;}
+.histriophoca{background: url(RibbonSeal.jpg) no-repeat top left;background-size: cover;}
+.halichoerus{background: url(GreySeal.jpg) no-repeat top left;background-size: cover;}
+.cystophora{background: url(HoodedSeal.jpg) no-repeat top left;background-size: cover;}
+.erignathus{background: url(BeardedSeal.jpg) no-repeat top left;background-size: cover;}
+.monachus{background: url(MediterraneanMonkSeal.jpg) no-repeat top left;background-size: cover;background-position: bottom;}
+.neomonachus{background: url(HawaiianMonkSeal.jpg) no-repeat top left;background-size: cover;}
+.mirounga{background: url(NorthernElephantSeal.jpg) no-repeat top left;background-size: cover;}
+.ommatophoca{background: url(RossSeal.jpg) no-repeat top left;background-size: cover;}
+.lobodon{background: url(CrabeaterSeal.jpg) no-repeat top left;background-size: cover;}
+.hydrurga{background: url(LeopardSeal.jpg) no-repeat top left;background-size: cover;background-position: center}
+.leptonychotes{background: url(WeddellSeal.jpg) no-repeat top left;background-size: cover;}
+.eumetopias{background: url(StellerSeaLion.jpg) no-repeat top left;background-size: cover;}
+.otaria{background: url(SouthAmericanSeaLion.jpg) no-repeat top left;background-size: cover;}
+.phocarctos{background: url(NewZealandSeaLion.jpg) no-repeat top left;background-size: cover;}
+.zalophus{background: url(CaliforniaSeaLion.jpg) no-repeat top left;background-size: cover;}
+.arctocephalus{background: url(AntarcticFurSeal.jpg) no-repeat top left;background-size: cover;background-position: bottom left;}
+.callorhinus{background: url(NorthernFurSeal.jpg) no-repeat top left;background-size: cover;}
+.diceros{background: url(BlackRhinoceros.jpg) no-repeat top left;background-size: cover;}
+.rhinoceros{background: url(IndianRhinoceros.jpg) no-repeat top left;background-size: cover;}
+.dicerorhinus{background: url(SumatranRhinoceros.jpg) no-repeat top left;background-size: cover;background-position: bottom right;}
