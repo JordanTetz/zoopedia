@@ -1,6 +1,6 @@
 body{
     background-color: darkgreen;
-    background-image: url(zoopedia/LeafPattern.png);
+    background-image: url(../LeafPattern.png);
     background-attachment: fixed;
     margin: 0;
 }
