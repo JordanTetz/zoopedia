@@ -15,10 +15,9 @@
     word-break: break-word;
     display: inline;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
     vertical-align: middle;
 }
+
 
 .large-title{
     font-size: 35px;
@@ -34,7 +33,7 @@
     align-self: center;
     object-fit: cover;
     margin-top: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     border-radius: 7px;
 }
 
@@ -49,9 +48,17 @@
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
+.credit-text{
+    word-break: break-word;
+    display:block;
+    font-size: 10px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
 .card-line{
     border: 2px solid;
     margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .breadcrumb-card{
